@@ -7,6 +7,7 @@ class Vehicle:
         self.storage = storage
         self.economical = economical
     
+    
     def check_if_mountain_bike(self,object):
         if(object.bike == True and object.fuel=="good" and object.tyres == "good"):
             print(f"{object.name} is a mountrin bike\n")
